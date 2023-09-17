@@ -12,12 +12,12 @@ body {
 /* Gaya untuk waktu hitung mundur */
 #countdown {
   position: absolute;
-  top: 665px;
-  right: 445px;  
+  top: 620px;
+  right: 548px;  
   background-color: #000; /* Warna latar belakang hitam */
   color: #0f0; /* Warna teks hijau */
   font-family: 'Courier New', monospace; /* Jenis font mirip dengan terminal */
-  font-size: 24px;
+  font-size: 12px;
   padding: 10px 50px;
   border: 2px solid #0f0; /* Garis tepi hijau */
   border-radius: 5px;
@@ -31,7 +31,7 @@ body {
 }
 
 #countdown div span {
-  font-size: 36px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 3px; /* Ruang antar karakter untuk efek terminal */
 }
@@ -39,9 +39,9 @@ body {
 #teks-khusus {
     /* Gaya CSS untuk elemen dengan ID "teks-khusus" */
     position: absolute;
-    top: 600px;
-    right: 490px;
-    font-size: 24px;
+    top: 585px;
+    right: 595px;
+    font-size: 12px;
     color: #0f0;
     font-weight: bold;
   }
@@ -57,7 +57,7 @@ body {
     padding: 50px 20px;
     border: 1px solid #0f0;
     border-radius: 5px;
-    width: 600px;
+    width: 300px;
 }
 
 .hacker-text {
@@ -101,7 +101,7 @@ body {
     padding: 10px 30px;
     text-decoration: none;
     border-radius: 240px;
-    left: 265px;
+    left: 120px;
     margin-top: -2px;
     transition: background-color 0.3s;
 }
