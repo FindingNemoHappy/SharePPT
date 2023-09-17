@@ -11,15 +11,13 @@ body {
 
 /* Gaya untuk waktu hitung mundur */
 #countdown {
-  position: absolute;
-  top: 620px;
-  right: 548px;  
+  position: relative; 
   background-color: #000; /* Warna latar belakang hitam */
-  color: #0f0; /* Warna teks hijau */
+  color: rgb(255, 255, 255); /* Warna teks hijau */
   font-family: 'Courier New', monospace; /* Jenis font mirip dengan terminal */
-  font-size: 12px;
+  font-size: 10px;
   padding: 10px 50px;
-  border: 2px solid #0f0; /* Garis tepi hijau */
+  border: 2px solid rgb(255, 255, 255); /* Garis tepi hijau */
   border-radius: 5px;
   text-align: center;
 }
@@ -38,11 +36,9 @@ body {
   
 #teks-khusus {
     /* Gaya CSS untuk elemen dengan ID "teks-khusus" */
-    position: absolute;
-    top: 585px;
-    right: 595px;
-    font-size: 12px;
-    color: #0f0;
+    position: relative;
+    font-size: 14px;
+    color: rgb(240, 255, 158);
     font-weight: bold;
   }
   
