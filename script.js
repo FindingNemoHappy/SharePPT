@@ -25,8 +25,8 @@ function continueBlinking() {
 }
 
 function countdown() {
-    var targetDate = new Date("2023-09-20T00:00:00Z"); // Tanggal target GMT
-    var now = new Date(); // Waktu saat ini
+    var targetDate = new Date("2023-09-22T00:00:00Z"); // Tanggal target GMT
+    var now = new Date("2023-09-20:00;00Z"); // Waktu saat ini
   
     var timeLeft = targetDate - now; // Menghitung selisih waktu dalam milidetik
   
